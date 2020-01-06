@@ -10,7 +10,7 @@ exit exits the shell
 
 cd changes directories. If no argument is given it will change directories to the location specified in the HOME environment variable. Otherwise it will change directories to the location given as an argument.
 
-status prints ount either the exit status or the terminating signal of the last foreground process
+status prints out either the exit status or the terminating signal of the last foreground process
 
 The shell handles other commands as well using fork and exec.
 
@@ -23,7 +23,7 @@ CTRL-C from the keyboard will only kill the current foreground process, not the 
 
 CTRL-Z from the keyboard will turn foreground-only mode on or off. Foreground-only mode treats background commands as foreground commands.
 
-##Installing and Compiling
+## Installing and Compiling
 
 To install: clone this repo.
 
